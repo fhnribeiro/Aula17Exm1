@@ -36,7 +36,7 @@ public class ProdutoDAOJDBC implements ProdutoDAO{
     }
     
     public List<Produto> listarTodos() throws Exception{
-        ArrayList<Produto> produtos = null;
+        ArrayList<Produto> produtos = new ArrayList<>();
         
         operacaoListar.clearParameters();
         operacaoListar.setInt(1, 0);
