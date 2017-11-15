@@ -21,7 +21,7 @@ public class Aula17 {
      */
     public static void main(String[] args) {
         try {
-            ProdutoDAO dao = new ProdutoDAO();
+            ProdutoDAO dao = new ProdutoDAOJDBC();
             
             Random rnd = new Random();
             
